@@ -47,7 +47,7 @@ O projeto é composto por várias classes que representam diferentes tipos de fu
 ### Clone o Repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/EzequiasSoares1/Payment_Sales
 ```
 
 ### Importe o Projeto:
