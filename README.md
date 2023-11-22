@@ -51,8 +51,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ```
 
 ### Importe o Projeto:
-
-** Utilize os Métodos Implementados ou execulte o arquivo Main.java**
+**Utilize os Métodos Implementados ou execulte o arquivo Main.java**
 
 
 
