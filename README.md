@@ -13,6 +13,7 @@ O projeto é composto por várias classes que representam diferentes tipos de fu
 
 ## Bibliotecas:
 **Lombok:** Para redução de código boilerplate em classes Java.
+
 **JUnit:** Para escrever e executar testes de integração.( Os testes estão no pacote `Test` )
 
 ## Funcionalidades Implementadas
