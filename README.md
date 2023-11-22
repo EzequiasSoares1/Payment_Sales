@@ -12,7 +12,7 @@ O projeto é composto por várias classes que representam diferentes tipos de fu
 **Relatorio:** Classe responsável por gerar relatórios com base nas informações dos funcionários.
 
 ## Bibliotecas:
-**Lombok:** Para redução de código boilerplate em classes Java.
+**Lombok:** Para redução de código.
 
 **JUnit:** Para escrever e executar testes de integração.( Os testes estão no pacote `Test` )
 
