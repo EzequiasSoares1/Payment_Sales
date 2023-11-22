@@ -1,5 +1,6 @@
 # Payment_Sales
-Este projeto em Java foi desenvolvido para gerenciar informações sobre funcionários de uma empresa, incluindo cálculos de salários, benefícios, vendas e gerar alguns relatorios. Abaixo estão alguns detalhes sobre o projeto.
+Este projeto em Java foi feito para testar o meu conhecimento em orientação a objeto dentre outras habilidades.
+O objetivo do programa é gerenciar informações sobre funcionários de uma empresa, incluindo cálculos de salários, benefícios, vendas e gerar alguns relatorios. Abaixo estão alguns detalhes sobre o projeto.
 
 ## Estrutura do Projeto
 O projeto é composto por várias classes que representam diferentes tipos de funcionários:
