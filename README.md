@@ -6,9 +6,13 @@ O objetivo do programa é gerenciar informações sobre funcionários de uma emp
 O projeto é composto por várias classes que representam diferentes tipos de funcionários:
 
 **Funcionario:** Classe abstrata que define atributos e métodos comuns a todos os funcionários.
+
 **Gerente:** Classe que representa um gerente, herda de Funcionario.
+
 **Secretario:** Classe que representa um secretário, herda de Funcionario.
+
 **Vendedor:** Classe que representa um vendedor, herda de Funcionario e possui um mapa de vendas mensais.
+
 **Relatorio:** Classe responsável por gerar relatórios com base nas informações dos funcionários.
 
 ## Bibliotecas:
