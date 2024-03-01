@@ -1,58 +1,54 @@
 # Payment_Sales
-Este projeto em Java foi feito para testar o meu conhecimento em orientação a objeto dentre outras habilidades.
-O objetivo do programa é gerenciar informações sobre funcionários de uma empresa, incluindo cálculos de salários, benefícios, vendas e gerar alguns relatorios. Abaixo estão alguns detalhes sobre o projeto.
 
-## Estrutura do Projeto
-O projeto é composto por várias classes que representam diferentes tipos de funcionários:
+This Java project was created to test my knowledge of object-oriented programming among other skills. The program's goal is to manage information about company employees, including salary calculations, benefits, sales, and generate some reports. Below are some details about the project.
 
-**Funcionario:** Classe abstrata que define atributos e métodos comuns a todos os funcionários.
+## Project Structure
 
-**Gerente:** Classe que representa um gerente, herda de Funcionario.
+The project consists of several classes representing different types of employees:
 
-**Secretario:** Classe que representa um secretário, herda de Funcionario.
+- **Employee:** Abstract class that defines attributes and methods common to all employees.
+- **Manager:** Class representing a manager, inherits from Employee.
+- **Secretary:** Class representing a secretary, inherits from Employee.
+- **Salesperson:** Class representing a salesperson, inherits from Employee and has a map of monthly sales.
+- **Report:** Class responsible for generating reports based on employee information.
 
-**Vendedor:** Classe que representa um vendedor, herda de Funcionario e possui um mapa de vendas mensais.
+## Libraries:
+- **Lombok:** For code reduction.
+- **JUnit:** For writing and executing integration tests. (Tests are in the `Test` package)
 
-**Relatorio:** Classe responsável por gerar relatórios com base nas informações dos funcionários.
+## Implemented Features
 
-## Bibliotecas:
-**Lombok:** Para redução de código.
+1. **Calculate Total Paid (Salary and Benefits) to Employees in the Month:**
+   - Receives a list of employees, month, and year.
+   - Returns the total amount paid, considering salaries and benefits, in the month.
 
-**JUnit:** Para escrever e executar testes de integração.( Os testes estão no pacote `Test` )
+2. **Calculate Total Paid Only in Salaries in the Month:**
+   - Receives a list of employees, month, and year.
+   - Returns the total amount paid only in salaries in the month.
 
-## Funcionalidades Implementadas
+3. **Calculate Total Paid in Benefits for Employees Receiving Benefits:**
+   - Receives a list of employees receiving benefits, month, and year.
+   - Returns the total amount paid in benefits in the month.
 
-1. **Calcular Total Pago (Salário e Benefício) a Funcionários no Mês:**
-   - Recebe lista de funcionários, mês e ano.
-   - Retorna valor total pago, considerando salários e benefícios, no mês.
+4. **Identify Employee Who Received the Highest Amount in the Month:**
+   - Receives a list of employees, month, and year.
+   - Returns the employee who received the highest amount (salary and benefits) in the month.
 
-2. **Calcular Total Pago Somente em Salários no Mês:**
-   - Recebe lista de funcionários, mês e ano.
-   - Retorna total pago somente em salários no mês.
+5. **Identify the Name of the Employee Who Received the Highest Amount in Benefits in the Month:**
+   - Receives a list of employees receiving benefits, month, and year.
+   - Returns the name of the employee who received the highest amount in benefits in the month.
 
-3. **Calcular Total Pago em Benefícios para Funcionários que Recebem Benefícios:**
-   - Recebe lista com funcionários que recebem benefícios, mês e ano.
-   - Retorna total pago em benefícios no mês.
+6. **Identify Salesperson Who Sold the Most in the Month:**
+   - Receives a list of salespersons, month, and year.
+   - Returns the salesperson who sold the most in the month.
 
-4. **Identificar Funcionário que Recebeu o Valor Mais Alto no Mês:**
-   - Recebe lista de funcionários, mês e ano.
-   - Retorna funcionário que recebeu valor mais alto (salário e benefício) no mês.
+## How to Use
 
-5. **Identificar Nome do Funcionário que Recebeu o Valor Mais Alto em Benefícios no Mês:**
-   - Recebe lista com funcionários que recebem benefícios, mês e ano.
-   - Retorna nome do funcionário que recebeu valor mais alto em benefícios no mês.
-
-6. **Identificar Vendedor que Mais Vendeu no Mês:**
-   - Recebe lista de vendedores, mês e ano.
-   - Retorna vendedor que mais vendeu no mês.
-
-## Como Utilizar
-
-### Clone o Repositório:
+### Clone the Repository:
 
 ```bash
 git clone https://github.com/EzequiasSoares1/Payment_Sales
-```
+
 
 ### Importe o Projeto:
 **Utilize os Métodos Implementados ou execulte o arquivo `Main.java`**
